@@ -1,0 +1,47 @@
+html {
+	min-height: 100%;
+	background: lime;
+	font: 16px helvetica;
+}
+.container {
+	width: 400px;
+	margin: 50px auto 0;
+	border-radius: 10px;
+	background-color: #fff;
+}
+header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+	background-color: yellow;
+	padding: 20px 0;
+	border-radius: 10px 10px 0 0;
+}
+.options {
+	padding: 20px;
+}
+select, input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+}
+button {
+	width: 46%;
+	margin: 0 2%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: yellow;
+	border: 0;
+	outline: 0;
+	font-size: 150%;
+}
+button:last-child {
+	margin-right: 0;
+}
+.buttons {
+	padding-bottom: 20px;
+}
+button:hover {
+	background-color: gold;
+}
+
